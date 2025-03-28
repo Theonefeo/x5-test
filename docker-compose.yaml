@@ -39,8 +39,8 @@ services:
 #    environment:
 #      DYNAMIC_CONFIG_ENABLED: 'true'
 #
-#  x5-proj:
-#    image: theonefeo/demo:latest
-#    container_name: x5-proj
-#    ports:
-#      - "8083:8082"
+  x5-proj:
+    image: theonefeo/demo:latest
+    container_name: x5-proj
+    ports:
+      - "8083:8082"
